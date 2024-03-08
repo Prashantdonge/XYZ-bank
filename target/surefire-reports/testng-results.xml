@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T22:03:49 PST" name="Suite" finished-at="2024-03-06T22:04:39 PST" duration-ms="49633">
+    <groups>
+    </groups>
+    <test started-at="2024-03-06T22:03:49 PST" name="Test" finished-at="2024-03-06T22:04:39 PST" duration-ms="49633">
+      <class name="com.xyzbank.qa.testcases.TC001_HomepageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC001_HomepageTest@27406a17]" started-at="2024-03-06T22:04:25 PST" name="setup" finished-at="2024-03-06T22:04:29 PST" duration-ms="4568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageTest()[pri:1, instance:com.xyzbank.qa.testcases.TC001_HomepageTest@27406a17]" started-at="2024-03-06T22:04:29 PST" name="homePageTest" finished-at="2024-03-06T22:04:30 PST" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.xyzbank.qa.testcases.TC001_HomepageTest@27406a17]" started-at="2024-03-06T22:04:30 PST" name="teardownBrowser" finished-at="2024-03-06T22:04:31 PST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.xyzbank.qa.testcases.TC001_HomepageTest -->
+      <class name="com.xyzbank.qa.testcases.TC004_OpenNewAccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@17f62e33]" started-at="2024-03-06T22:04:04 PST" name="setup" finished-at="2024-03-06T22:04:10 PST" duration-ms="6435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccount()[pri:3, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@17f62e33]" started-at="2024-03-06T22:04:10 PST" name="createAccount" finished-at="2024-03-06T22:04:14 PST" duration-ms="3661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@17f62e33]" started-at="2024-03-06T22:04:14 PST" name="teardownBrowser" finished-at="2024-03-06T22:04:14 PST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.xyzbank.qa.testcases.TC004_OpenNewAccountTest -->
+      <class name="com.xyzbank.qa.testcases.TC005_SearchCustomerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC005_SearchCustomerTest@76b1e9b8]" started-at="2024-03-06T22:04:14 PST" name="setup" finished-at="2024-03-06T22:04:21 PST" duration-ms="7140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearch()[pri:0, instance:com.xyzbank.qa.testcases.TC005_SearchCustomerTest@76b1e9b8]" started-at="2024-03-06T22:04:21 PST" name="verifySearch" finished-at="2024-03-06T22:04:24 PST" duration-ms="3034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.xyzbank.qa.testcases.TC005_SearchCustomerTest@76b1e9b8]" started-at="2024-03-06T22:04:24 PST" name="teardownBrowser" finished-at="2024-03-06T22:04:25 PST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.xyzbank.qa.testcases.TC005_SearchCustomerTest -->
+      <class name="com.xyzbank.qa.testcases.TC003_AddNewCustomerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC003_AddNewCustomerTest@1e6a3214]" started-at="2024-03-06T22:03:50 PST" name="setup" finished-at="2024-03-06T22:03:59 PST" duration-ms="9386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyManagerLogin()[pri:0, instance:com.xyzbank.qa.testcases.TC003_AddNewCustomerTest@1e6a3214]" started-at="2024-03-06T22:03:59 PST" name="verifyManagerLogin" finished-at="2024-03-06T22:04:03 PST" duration-ms="3663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManagerLogin -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.xyzbank.qa.testcases.TC003_AddNewCustomerTest@1e6a3214]" started-at="2024-03-06T22:04:03 PST" name="teardownBrowser" finished-at="2024-03-06T22:04:03 PST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.xyzbank.qa.testcases.TC003_AddNewCustomerTest -->
+      <class name="com.xyzbank.qa.testcases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC002_LoginTest@2af004b]" started-at="2024-03-06T22:04:31 PST" name="setup" finished-at="2024-03-06T22:04:35 PST" duration-ms="4139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.xyzbank.qa.testcases.TC002_LoginTest@2af004b]" started-at="2024-03-06T22:04:35 PST" name="verifyLogin" finished-at="2024-03-06T22:04:39 PST" duration-ms="3817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.xyzbank.qa.testcases.TC002_LoginTest@2af004b]" started-at="2024-03-06T22:04:39 PST" name="teardownBrowser" finished-at="2024-03-06T22:04:39 PST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.xyzbank.qa.testcases.TC002_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
