@@ -29,12 +29,12 @@ public class AddNewCustomerTest extends TestBase {
 	public void verifyManagerLogin() throws Exception {
 		hp.managerLoginBtn();
 		bmlp.clickaddCustomerTab();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		acp.enterFName(prop.getProperty("fname"));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		acp.enterLName(prop.getProperty("lname"));
 		acp.enterPCode(prop.getProperty("zip"));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		acp.clickaddCustBtn();
 		
 		String alertMsg = acp.acceptAlert();

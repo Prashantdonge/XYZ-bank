@@ -31,12 +31,12 @@ public class LoginTest extends TestBase {
 		cp = hp.customerLoginbtn();
 		cp.selectUser();
 		String EXPname = cp.selectUser();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		ap = cp.clickloginbtn();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		String ActUser = ap.getUserName();
 		System.out.println(EXPname + "  and   " + ActUser);
-		Assert.assertEquals(EXPname, ActUser, "Selected user is not logged in...");
+		Assert.assertEquals(EXPname, ActUser, "Selected user is not logged in..");
 	}
 }
 

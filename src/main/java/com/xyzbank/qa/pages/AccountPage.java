@@ -31,7 +31,7 @@ public class AccountPage extends TestBase  {
 			@FindBy(xpath = "//span[contains(.,'Deposit Successful')]")
 			WebElement depositSuccessMsg;
 			
-		//Withdrawl elements	
+		//Withdraw elements	
 			@FindBy(xpath = "//button[contains(.,'Withdrawl')]")
 			WebElement withdrawlTab;
 			
@@ -67,7 +67,7 @@ public class AccountPage extends TestBase  {
 				return depositSuccessMsg.getText();
 			}	
 			
-	   //Withdrawl Actions		
+	   //Withdraw Actions		
 			public void clickWithdrawlTab()
 			{
 				withdrawlTab.click();

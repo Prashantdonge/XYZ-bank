@@ -31,7 +31,7 @@ public class OpenNewAccountTest extends TestBase {
 		oap = bmlp.clickopenAccountTab();
 		oap.selectCustomer();
 		oap.selectCurrency();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		oap.clickProcessBtn();
 		
 		String alertmsg = oap.acceptAlert();

@@ -30,13 +30,7 @@ import com.xyzbank.qa.base.TestBase;
 		}
 		
 		
-		
-	  // public HomePage login(){
-		   
-			
-		//loginButton.click();
-			    	
-			//return new HomePage();
+	
 		}
 		
 	

@@ -1,7 +1,11 @@
 package com.xyzbank.qa.testcases;
 
+import java.io.File;
 import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -34,5 +38,8 @@ public class SearchCustomerTest extends TestBase {
 		String name = clp.getSearchedName();
 		Assert.assertEquals(searchingName, name, "name not found....");
 		System.out.println(name + " " + searchingName);
+		
+		
+		
 	}
 }
